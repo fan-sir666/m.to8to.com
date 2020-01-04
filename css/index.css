@@ -1,0 +1,642 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: calc(12rem/75) calc(32rem/75);
+    width: 100%;
+    height: calc(86rem/75);
+    color: #333333;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    background-color: #fff;
+    z-index: 99;
+}
+
+header>.header-l {
+    float: left;
+    margin: calc(20rem/75) calc(28rem/75) 0 0;
+}
+
+header>.header-l span {
+    font-size: calc(28rem/75);
+    margin-right: calc(2rem/75);
+}
+
+header>.header-l i {
+    display: inline-block;
+    width: calc(26rem/75);
+    height: calc(16rem/75);
+    background: url(../img/sprite_1.png) calc(-13rem/75) calc(-23rem/75);
+    background-size: calc(750rem/75) calc(750rem/75);
+}
+
+header>.header-c {
+    float: left;
+    padding: calc(12rem/75) calc(22rem/75);
+    width: calc(454rem/75);
+    height: calc(60rem/75);
+    background-color: #f4f4f4;
+    border-radius: calc(10rem/75);
+}
+
+header>.header-c>img:first-child {
+    vertical-align: middle;
+    width: calc(36rem/75);
+    height: calc(38rem/75);
+}
+
+header>.header-c span:nth-child(2) {
+    font-size: calc(26rem/75);
+}
+
+header>.header-c span:nth-child(3) {
+    margin-left: calc(96rem/75);
+    font-size: calc(24rem/75);
+    color: #39de9c;
+}
+
+header>.header-c img:last-child {
+    vertical-align: middle;
+    width: calc(24rem/75);
+    height: calc(24rem/75);
+}
+
+header>.header-y {
+    margin-left: calc(16rem/75);
+    float: right;
+}
+
+header>.header-y i {
+    position: relative;
+    top: calc(12rem/75);
+    display: inline-block;
+    width: calc(42rem/75);
+    height: calc(40rem/75);
+    background: url(../img/sprite_1.png) calc(-202rem/75) calc(-16rem/75);
+    background-size: calc(750rem/75) calc(750rem/75);
+}
+
+header>.header-y i:last-child {
+    left: calc(14rem/75);
+    width: calc(42rem/75);
+    height: calc(40rem/75);
+    background: url(../img/sprite_1.png) calc(-384rem/75) calc(-142rem/75);
+    background-size: calc(750rem/75) calc(750rem/75);
+}
+
+header>.header-y i:first-child::after {
+    content: '3';
+    position: absolute;
+    top: calc(-18rem/75);
+    right: calc(-6rem/75);
+    width: calc(30rem/75);
+    height: calc(30rem/75);
+    line-height: calc(30rem/75);
+    text-align: center;
+    background-color: #fa6969;
+    font-size: calc(22rem/75);
+    color: #fff;
+    border-radius: 50%;
+}
+
+/* 主体 */
+main {
+    padding-top: calc(86rem/75);
+    background-color: #f7f7f7;
+    /* 辅助代码 */
+    height: calc(10000000rem/75);
+}
+
+/* 轮播图 */
+.viewpager {
+    width: 100%;
+}
+
+.viewpager li {
+    width: 100%;
+}
+
+.viewpager li a {
+    display: block;
+    width: 100%;
+}
+
+.viewpager li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 公司详情 */
+.details {
+    padding: calc(40rem/75) calc(30rem/75);
+    background-color: #fff;
+    margin-bottom: calc(20rem/75);
+}
+
+.details ul {
+    width: 100%;
+}
+
+.details ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.details ul li a {
+    display: block;
+    color: #333333;
+}
+
+.details ul li img {
+    width: calc(100rem/75);
+    height: calc(100rem/75);
+}
+
+.details ul li h4 {
+    margin-top: calc(12rem/75);
+    font-size: calc(24rem/75);
+}
+
+.details ul li:nth-last-child(-n+5) {
+    margin-top: calc(20rem/75);
+}
+
+.details-btm {
+    margin-top: calc(38rem/75);
+    width: 100%;
+}
+
+.details-btm a {
+    float: left;
+    width: 50%;
+}
+
+.details-btm img {
+    width: 100%;
+    height: 100%;
+}
+
+.details-btm a:first-child {
+    padding-right: calc(10rem/75);
+    height: 100%;
+}
+
+.details-btm a:nth-last-child(-n+2) img {
+    height: calc(134rem/75);
+}
+
+.details-btm a:nth-last-child(2) img {
+    margin-bottom: calc(12rem/75);
+}
+
+/* 报价 */
+.quoted {
+    padding: calc(38rem/75) calc(30rem/75) calc(60rem/75);
+    width: 100%;
+    background-color: #fff;
+}
+
+.quoted>h4 {
+    position: relative;
+    width: 100%;
+    height: calc(66rem/75);
+    font-size: calc(34rem/75);
+    color: #333333;
+    text-align: center;
+}
+
+.quoted>h4::before,
+.quoted>h4::after {
+    content: '';
+    position: absolute;
+    top: calc(20rem/75);
+    width: calc(66rem/75);
+    height: calc(2rem/75);
+    background-color: #c8c8c8;
+}
+
+.quoted>h4::before {
+    left: calc(100rem/75);
+}
+
+.quoted>h4::after {
+    right: calc(100rem/75);
+}
+
+.reveal {
+    margin: 0 auto;
+    width: calc(674rem/75);
+    height: calc(88rem/75);
+    background-color: #d3d3cb;
+    border-top: 5px solid #3d3c30;
+    border-right: 5px solid #3d3c30;
+    border-bottom: 4px solid #6c6b60;
+    border-left: 4px solid #3d3c30;
+    border-radius: calc(10rem/75);
+    box-shadow: -5px -6px 2px #d2d1d1
+}
+
+.reveal h4 {
+    margin-left: calc(406rem/75);
+    font-size: calc(58rem/75);
+}
+
+.reveal h4 s {
+    font-size: calc(24rem/75);
+}
+
+.quoted input {
+    padding-left: calc(19rem/75);
+    width: 100%;
+    height: calc(76rem/75);
+    line-height: calc(76rem/75);
+    font-size: calc(26rem/75);
+    color: #333333;
+    border: 1px solid #d8d8d8;
+    border-radius: calc(10rem/75);
+}
+
+.quoted input:nth-child(3),
+.quoted input:nth-child(4) {
+    margin-top: calc(44rem/75);
+    width: calc(336rem/75);
+}
+
+.quoted input:nth-child(3) {
+    margin-right: calc(10rem/75);
+}
+
+.quoted input:nth-child(5) {
+    margin: calc(20rem/75) 0;
+}
+
+.quoted button:last-child {
+    margin-top: calc(38rem/75);
+    display: block;
+    width: 100%;
+    height: calc(96rem/75);
+    line-height: calc(96rem/75);
+    text-align: center;
+    background-color: #fc6a48;
+    font-size: calc(36rem/75);
+    color: #fff;
+    border-radius: calc(10rem/75);
+    border: none;
+}
+
+/* 通用标题 */
+.title {
+    margin-top: calc(20rem/75);
+    width: 100%;
+    height: calc(84rem/75);
+    padding: calc(48rem/75) calc(30rem/75) 0;
+    background-color: #fff;
+}
+
+.title>h3 {
+    float: left;
+    font-size: calc(32rem/75);
+    color: #333333;
+    font-weight: 700;
+}
+
+.title>a {
+    float: right;
+    font-size: calc(30rem/75);
+    color: #34c083;
+}
+
+/* 本地装修 */
+.local {
+    /* overflow: hidden; */
+    width: 100%;
+    padding: calc(30rem/75) calc(30rem/75) calc(44rem/75);
+    background-color: #fff;
+}
+
+.local ul {
+    /* 移动端横向滑动 */
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    background-color: #f8f8f8;
+}
+
+.local ul::-webkit-scrollbar {
+    /* 滚动条隐藏 */
+    display: none;
+}
+
+.local ul li {
+    float: left;
+    margin-right: calc(24rem/75);
+    background-color: #fff;
+}
+
+.local ul a {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: calc(316rem/75);
+    height: calc(382rem/75);
+    text-align: center;
+    font-size: calc(24rem/75);
+    color: #999999;
+}
+
+.local ul a img {
+    margin-top: calc(38rem/75);
+    width: calc(100rem/75);
+    height: calc(100rem/75);
+}
+
+.local ul a h4 {
+    margin: calc(22rem/75) 0 calc(60rem/75);
+    width: 100%;
+    font-size: calc(30rem/75);
+    color: #333333;
+    font-weight: 700;
+}
+
+.local ul a s {
+    color: #ff5a00;
+}
+
+.local ul a span:nth-child(3) {
+    margin-right: calc(24rem/75);
+}
+
+.local ul a button {
+    display: block;
+    margin: calc(30rem/75) auto 0;
+    width: calc(180rem/75);
+    height: calc(50rem/75);
+    line-height: calc(50rem/75);
+    text-align: center;
+    background-color: #ffb200;
+    font-size: calc(26rem/75);
+    color: #fff;
+    border-radius: calc(10rem/75);
+    border: none;
+}
+
+.local ul a::after {
+    content: '';
+    position: absolute;
+    top: calc(0rem/75);
+    left: calc(10rem/75);
+    width: calc(52rem/75);
+    height: calc(78rem/75);
+    background: url(../img/tui.png) no-repeat;
+    background-size: 100%;
+}
+
+/* 通用切换 */
+.switch {
+    display: flex;
+    padding: calc(50rem/75) calc(30rem/75) 0;
+    background-color: #fff;
+}
+
+.switch h3 {
+    flex: 1;
+    height: calc(52rem/75);
+    text-align: center;
+    font-size: calc(30rem/75);
+    font-weight: 700;
+    color: #555555;
+}
+
+.switch h3:first-child {
+    color: #34c083;
+    border-bottom: calc(4rem/75) solid #34c083;
+}
+
+/* 设计 */
+.design {
+    width: 100%;
+    padding: calc(52rem/75) calc(30rem/75) calc(60rem/75);
+    background-color: #fff;
+}
+
+.design ul {
+    /* 移动端横向滑动 */
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.design ul::-webkit-scrollbar {
+    /* 滚动条隐藏 */
+    display: none;
+}
+
+.design ul li {
+    float: left;
+    margin-right: calc(20rem/75);
+}
+
+.design ul a {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: calc(320rem/75);
+    height: calc(386rem/75);
+}
+
+.design ul a img {
+    width: 100%;
+    height: 100%;
+}
+
+.design ul a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    z-index: 2;
+}
+
+.design ul a h4,
+.design ul a span {
+    position: absolute;
+    top: calc(150rem/75);
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: auto;
+    height: calc(50rem/75);
+    font-size: calc(38rem/75);
+    color: #fff;
+    z-index: 3;
+    border-bottom: calc(3rem/75) solid #fff;
+}
+
+.design ul a span {
+    top: calc(210rem/75);
+    font-size: calc(30rem/75);
+    border-bottom: none;
+}
+
+/* 通用广告 */
+.advert {
+    margin-top: calc(20rem/75);
+    width: 100%;
+}
+
+.advert img {
+    width: 100%;
+}
+
+/* 攻略 */
+.strategy {
+    padding: calc(46rem/75) calc(30rem/75) calc(36rem/75);
+    width: 100%;
+    background-color: #fff;
+}
+
+.strategy li {
+    height: calc(375rem/75);
+    border-bottom: calc(2rem/75) solid #e7e7e7;
+    margin-bottom: calc(38rem/75);
+}
+
+.strategy a {
+    display: block;
+}
+
+.strategy-l {
+    float: left;
+    width: calc(450rem/75);
+    font-size: calc(26rem/75);
+    color: #999999;
+}
+
+.strategy-l h3 {
+    font-size: calc(36rem/75);
+    color: #555555;
+    line-height: calc(58rem/75);
+    margin-bottom: calc((72rem - 58rem)/75);
+}
+
+.strategy-l p {
+    line-height: calc(46rem/75);
+    margin-bottom: calc((70rem - 46rem)/75);
+}
+
+.strategy-l s {
+    display: block;
+    width: calc(36rem/75);
+    height: calc(2rem/75);
+    background-color: #e7e7e7;
+}
+
+.strategy-l span {
+    margin: calc(24rem/75) 0 calc(37rem/75);
+    display: block;
+    color: #ccc;
+}
+
+.strategy-y {
+    float: right;
+    width: calc(180rem/75);
+}
+
+.strategy-y img {
+    width: 100%;
+    height: calc(180rem/75);
+    border-radius: calc(10rem/75);
+}
+
+.strategy button {
+    margin: calc(70rem/75) auto 0;
+    display: block;
+    width: calc(280rem/75);
+    height: calc(48rem/75);
+    line-height: calc(48rem/75);
+    text-align: center;
+    border: 1px solid #34c083;
+    border-radius: calc(10rem/75);
+    font-size: calc(28rem/75);
+    color: #40c48b;
+    background-color: transparent;
+}
+
+/* 买建材 */
+.materials {
+    padding: calc(34rem/75) calc(30rem/75) 0;
+    background-color: #fff;
+}
+
+.materials a {
+    float: left;
+    width: 50%;
+    font-size: calc(32rem/75);
+    color: #999999;
+    text-align: center;
+}
+
+.materials a img {
+    width: 100%;
+}
+
+.materials a:nth-child(2n+1) {
+    padding-right: calc(7rem/75);
+}
+
+.materials a:nth-child(2n) {
+    padding-left: calc(7rem/75);
+}
+
+.materials a h4 {
+    margin-top: calc(32rem/75);
+}
+
+.materials a:nth-last-child(-n+2) {
+    margin-top: calc(75rem/75);
+}
+
+/* 合作品牌 */
+.cooperation {
+    padding: calc(96rem/75) calc(70rem/75) calc(60rem/75);
+    background-color: #fff;
+}
+
+.cooperation-t {
+    width: 100%;
+    text-align: center;
+}
+
+.cooperation-t>h4 {
+    position: relative;
+    width: 100%;
+    height: calc(66rem/75);
+    font-size: calc(34rem/75);
+    color: #333333;
+    text-align: center;
+}
+.cooperation-t>h4::before,
+.cooperation-t>h4::after {
+    content: '';
+    position: absolute;
+    top: calc(20rem/75);
+    width: calc(66rem/75);
+    height: calc(2rem/75);
+    background-color: #c8c8c8;
+}
+
+.cooperation-t>h4::before {
+    left: calc(100rem/75);
+}
+
+.cooperation-t>h4::after {
+    right: calc(100rem/75);
+}
