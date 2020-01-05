@@ -1,3 +1,4 @@
+/* 头部 */
 header {
     position: fixed;
     top: 0;
@@ -103,8 +104,6 @@ header>.header-y i:first-child::after {
 main {
     padding-top: calc(86rem/75);
     background-color: #f7f7f7;
-    /* 辅助代码 */
-    height: calc(10000000rem/75);
 }
 
 /* 轮播图 */
@@ -623,6 +622,7 @@ main {
     color: #333333;
     text-align: center;
 }
+
 .cooperation-t>h4::before,
 .cooperation-t>h4::after {
     content: '';
@@ -639,4 +639,210 @@ main {
 
 .cooperation-t>h4::after {
     right: calc(100rem/75);
+}
+
+.cooperation-b {
+    padding: calc(53rem/75) 0 calc(60rem/75);
+    width: 100%;
+}
+
+.cooperation-b li {
+    float: left;
+    width: calc(186rem/75);
+    height: calc(74rem/75);
+}
+
+.cooperation-b li:nth-child(1),
+.cooperation-b li:nth-child(4) {
+    margin-right: calc(10rem/75);
+}
+
+.cooperation-b li:nth-child(2),
+.cooperation-b li:nth-child(5) {
+    margin-left: calc(10rem/75);
+    margin-right: calc(10rem/75);
+}
+
+.cooperation-b li:nth-child(3),
+.cooperation-b li:nth-child(6) {
+    margin-left: calc(10rem/75);
+}
+
+.cooperation-b li:nth-child(-n+3) {
+    margin-bottom: calc(40rem/75);
+}
+
+.cooperation-b li:nth-last-child(-n+2),
+.cooperation-b li:nth-last-child(4) {
+    border: 1px solid #eeeeee;
+}
+
+.cooperation-b li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 了解土巴兔 */
+.know {
+    width: 100%;
+    padding: calc(33rem/75) calc(30rem/75) calc(86rem/75);
+    background-color: #fff;
+}
+
+.know ul {
+    /* 移动端横向滑动 */
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.know ul::-webkit-scrollbar {
+    /* 滚动条隐藏 */
+    display: none;
+}
+
+.know ul li {
+    float: left;
+    margin-right: calc(20rem/75);
+}
+
+.know ul a {
+    display: block;
+    width: calc(322rem/75);
+}
+
+.know ul a img {
+    width: 100%;
+    height: calc(212rem/75);
+}
+
+.know ul a h4 {
+    margin-top: calc(26rem/75);
+    width: 100%;
+    font-size: calc(26rem/75);
+    color: #333333;
+    /* 单行出现省略号 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 热门 */
+.hot {
+    width: 100%;
+    padding: 0 calc(52rem/75) 0 calc(38rem/75);
+    background-color: #fff;
+}
+
+.hot-title>h4 {
+    float: left;
+    margin-right: calc(42rem/75);
+    font-size: calc(28rem/75);
+    color: #333333;
+}
+
+.hot-title>h4:first-child {
+    position: relative;
+    font-weight: 700;
+}
+
+.hot-title>h4:first-child::after {
+    content: '';
+    position: absolute;
+    top: calc(48rem/75);
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: calc(38rem/75);
+    height: calc(6rem/75);
+    background-color: #f45549;
+}
+
+.hot-btm {
+    margin-top: calc(56rem/75);
+}
+
+.hot-btm li {
+    margin: 0 calc(15rem/75) calc(20rem/70) 0;
+    float: left;
+    width: calc(210rem/75);
+    height: calc(64rem/75);
+    line-height: calc(64rem/75);
+    text-align: center;
+}
+
+.hot-btm li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: calc(28rem/75);
+    color: #333333;
+    background-color: #f8f8f8;
+}
+
+.hot-btm li:nth-child(3n) {
+    margin-right: 0;
+}
+
+/* 底部 */
+footer {
+    height: calc(558rem/75);
+    background-color: #2e2e2e;
+    font-size: calc(24rem/75);
+    color: #606060;
+}
+.di-title {
+    margin: 0 auto;
+    padding: calc(64rem/75);
+}
+.di-title a {
+    padding: 0 calc(26rem/75);
+    float: left;
+    font-size: calc(30rem/75);
+    color: #606060;
+    border-right: 1px solid #444444;
+}
+.di-title a:first-child {
+    padding-left: 0;
+}
+.di-title a:last-child{
+    padding-right: 0;
+    border-right: none;
+}
+.di-c {
+    margin-bottom: calc(92rem/75);
+    text-align: center;
+}
+.di-c button {
+    position: relative;
+    margin: 0 auto calc(25rem/75);
+    padding-left: calc(56rem/75);
+    display: block;
+    width: calc(386rem/75);
+    height: calc(72rem/75);
+    background-color: #24c77e;
+    border-radius: calc(30rem/75);
+    border: none;
+    font-size: calc(36rem/75);
+    color: #fff;
+}
+.di-c button::after {
+    content: '';
+    position: absolute;
+    top: calc(14rem/75);
+    left: calc(48rem/75);
+    width: calc(36rem/75);
+    height: calc(44rem/75);
+    background: url(../img/di.png) no-repeat;
+    background-size: 100%;
+}
+.di-btm {
+    text-align: center;
+}
+.di-btm p:nth-child(2) {
+    margin: calc(26rem/75) 0;
+}
+.di-btm a {
+    display: block;
+    color: #606060;
 }

@@ -1,0 +1,357 @@
+/* 头部 */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: calc(12rem/75) calc(32rem/75);
+    width: 100%;
+    height: calc(86rem/75);
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    background-color: #fff;
+    z-index: 99;
+}
+
+header>.header-l {
+    float: left;
+    margin-top: calc(8rem/75);
+}
+
+header>.header-l a {
+    display: block;
+}
+
+header>.header-l a img {
+    width: calc(26rem/75);
+    height: calc(36rem/75);
+}
+
+header>.header-c {
+    float: left;
+    margin: calc(8rem/75) 0 0 calc(270rem/75);
+}
+
+header>.header-c>img {
+    width: calc(120rem/75);
+    height: calc(36rem/75);
+}
+
+header>.header-y {
+    margin-left: calc(16rem/75);
+    float: right;
+}
+
+header>.header-y i {
+    position: relative;
+    top: calc(12rem/75);
+    display: inline-block;
+    width: calc(42rem/75);
+    height: calc(40rem/75);
+    background: url(../img/sprite_1.png) calc(-202rem/75) calc(-16rem/75);
+    background-size: calc(750rem/75) calc(750rem/75);
+}
+
+header>.header-y i:last-child {
+    left: calc(14rem/75);
+    width: calc(42rem/75);
+    height: calc(40rem/75);
+    background: url(../img/sprite_1.png) calc(-384rem/75) calc(-142rem/75);
+    background-size: calc(750rem/75) calc(750rem/75);
+}
+
+header>.header-y i:first-child::after {
+    content: '3';
+    position: absolute;
+    top: calc(-18rem/75);
+    right: calc(-6rem/75);
+    width: calc(30rem/75);
+    height: calc(30rem/75);
+    line-height: calc(30rem/75);
+    text-align: center;
+    background-color: #fa6969;
+    font-size: calc(22rem/75);
+    color: #fff;
+    border-radius: 50%;
+}
+
+/* 主体 */
+main {
+    padding: calc(86rem/75) 0 calc(100rem/75);
+    background-color: #fff;
+}
+
+/* 代言人 */
+.spokesman {
+    width: 100%;
+    height: calc(840rem/75);
+}
+
+.spokesman>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 视频 */
+.video {
+    width: 100%;
+    padding: calc(70rem/75) calc(30rem/75) 0;
+}
+
+.video img {
+    width: 100%;
+}
+
+/* 付款方式 */
+.payment {
+    width: 100%;
+    padding: 0 calc(36rem/75);
+}
+
+.payment>img {
+    width: 100%;
+}
+
+.advantage {
+    margin-top: calc(64rem/75);
+    color: #666666;
+    text-align: center;
+}
+
+.advantage h4 {
+    font-size: calc(30rem/75);
+}
+
+.advantage h3 {
+    margin: calc(24rem/75) 0 calc(22rem/75);
+    font-size: calc(50rem/75);
+    color: #333333;
+}
+
+.advantage h5 {
+    font-size: calc(28rem/75);
+}
+
+.advantage img {
+    width: 100%;
+}
+
+.advantage-l,
+.advantage-y {
+    float: left;
+    width: calc(322rem/75);
+    margin-top: calc(48rem/75);
+    text-align: left;
+}
+
+.advantage-y {
+    float: right;
+}
+
+.advantage-l img,
+.advantage-y img {
+    width: 100%;
+}
+
+.advantage-l h4,
+.advantage-y h4 {
+    margin-top: calc(32rem/75);
+    margin-bottom: calc(16rem/75);
+    font-size: calc(30rem/75);
+    font-weight: 700;
+    color: #666666;
+}
+
+.advantage-l p,
+.advantage-y p {
+    line-height: 1.5;
+    font-size: calc(26rem/75);
+    color: #666666;
+}
+
+.advantage-xia {
+    margin-top: calc(32rem/75);
+}
+
+.advantage-xia>h3 {
+    font-size: calc(40rem/75);
+    color: #333333;
+}
+
+.advantage-xia>h5 {
+    margin-top: calc(28rem/75);
+    font-size: calc(30rem/75);
+    color: #999999;
+}
+
+.payment>button {
+    margin: calc(74rem/75) auto calc(84rem/75);
+    display: block;
+    width: calc(192rem/75);
+    height: calc(72rem/75);
+    line-height: calc(72rem/75);
+    text-align: center;
+    font-size: calc(30rem/75);
+    color: #82e3cf;
+    border: 1px solid #83e3c9;
+    background-color: transparent;
+}
+
+/* 服务流程 */
+.serve {
+    width: 100%;
+    text-align: center;
+    padding: calc(60rem/75) calc(57rem/75) calc(78rem/75) calc(65rem/75);
+    background-color: #f8f8fa;
+}
+
+.serve>img {
+    width: 100%;
+}
+
+.serve>h3 {
+    font-size: calc(50rem/75);
+    color: #333333;
+}
+
+.serve>p {
+    margin: calc(28rem/75) 0 calc(59rem/75);
+    font-size: calc(30rem/75);
+    color: #999999;
+}
+
+/* 更多服务 */
+.more {
+    background-color: #fff;
+}
+
+.more>p {
+    line-height: 1.5;
+}
+
+/* 常见问题 */
+.issue {
+    padding: calc(125rem/75) calc(40rem/75) 0;
+    background-color: #fff;
+}
+
+.issue>h3 {
+    text-align: center;
+    font-size: calc(50rem/75);
+    color: #333333;
+    margin-bottom: calc(48rem/75);
+}
+
+.duan {
+    margin-bottom: calc(20rem/75);
+    border: 1px solid #d7e1e2;
+    border-radius: calc(10rem/75);
+}
+
+.issue-title {
+    padding: 0 calc(40rem/75);
+    width: 100%;
+    height: calc(150rem/75);
+    line-height: calc(150rem/75);
+    color: #27c183;
+    border-bottom: 1px solid #d7e1e2;
+}
+
+.issue-title>h5 {
+    float: left;
+    font-size: calc(42rem/75);
+}
+
+.issue-title>span {
+    float: left;
+    margin-left: calc(30rem/75);
+    font-size: calc(30rem/75);
+}
+
+.issue-title>img {
+    float: right;
+    margin-top: calc(66rem/75);
+    width: calc(26rem/75);
+    height: calc(16rem/75);
+}
+
+.issue-duan {
+    padding: calc(53rem/75) calc(40rem/75);
+    width: calc(666rem/75);
+    height: calc(666rem/75);
+    background-color: #fafafa;
+}
+
+.issue-duan p {
+    margin-bottom: calc(10rem/75);
+    font-size: calc(30rem/75);
+    color: #666666;
+    line-height: calc(54rem/75);
+}
+
+.issue div:nth-last-child(-n+2) {
+    color: #777777;
+}
+.issue div:nth-last-child(-n+2) .issue-title {
+    border-bottom: none;
+}
+
+.issue>div:nth-last-child(1) span {
+    margin-top: calc(56rem/75);
+    width: calc(448rem/75);
+    line-height: calc(38rem/75);
+}
+/* 关于土巴兔 */
+.whereof {
+    padding: 0 calc(40rem/75) calc(200rem/75);
+    width: 100%;
+    background-color: #fff;
+}
+.whereof > img {
+    margin: 0 auto;
+    width: 100%;
+}
+.whereof-btm {
+    font-size: calc(28rem/75);
+    color: #666666;
+}
+.whereof-btm-dq {
+    margin-bottom: calc(26rem/75);
+}
+.whereof-btm-dq h3 {
+    float: left;
+    width: calc(132rem/75);
+    height: calc(48rem/75);
+    line-height: calc(48rem/75);
+    text-align: center;
+    background-color: #edeff6;
+}
+.whereof-btm-dq p {
+    float: right;
+    width: calc(504rem/75);
+    line-height: 1.8;
+}
+.whereof > p {
+    width: 100%;
+    line-height: 1.8;
+    font-size: calc(28rem/75);
+    color: #666666;
+}
+
+/* 底部 */
+footer {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: calc(100rem/75);
+    line-height: calc(100rem/75);
+    text-align: center;
+    background: #0FC393;
+}
+
+footer a {
+    display: block;
+    font-size: calc(48rem/75);
+    color: #fff;
+}
