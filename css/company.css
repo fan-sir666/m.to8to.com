@@ -1,0 +1,420 @@
+/* 头部 */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: calc(12rem/75) calc(32rem/75);
+    width: 100%;
+    height: calc(86rem/75);
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    background-color: #fff;
+    z-index: 99;
+}
+
+header>.header-l {
+    float: left;
+    margin-top: calc(8rem/75);
+}
+
+header>.header-l a {
+    display: block;
+}
+
+header>.header-l a img {
+    width: calc(26rem/75);
+    height: calc(36rem/75);
+}
+
+header>.header-c {
+    float: left;
+    margin: calc(8rem/75) 0 0 calc(270rem/75);
+}
+
+header>.header-c>img:first-child {
+    width: calc(120rem/75);
+    height: calc(36rem/75);
+}
+
+header>.header-c>a:last-child {
+    display: inline-block;
+}
+
+header>.header-c>a:last-child img {
+    margin-left: calc(100rem/75);
+    width: calc(42rem/75);
+    height: calc(40rem/75);
+}
+
+header>.header-y {
+    margin-left: calc(16rem/75);
+    float: right;
+}
+
+header>.header-y i {
+    position: relative;
+    top: calc(12rem/75);
+    display: inline-block;
+    width: calc(42rem/75);
+    height: calc(40rem/75);
+    background: url(../img/sprite_1.png) calc(-202rem/75) calc(-16rem/75);
+    background-size: calc(750rem/75) calc(750rem/75);
+}
+
+header>.header-y i:last-child {
+    left: calc(14rem/75);
+    width: calc(42rem/75);
+    height: calc(40rem/75);
+    background: url(../img/sprite_1.png) calc(-384rem/75) calc(-142rem/75);
+    background-size: calc(750rem/75) calc(750rem/75);
+}
+
+header>.header-y i:first-child::after {
+    content: '3';
+    position: absolute;
+    top: calc(-18rem/75);
+    right: calc(-6rem/75);
+    width: calc(30rem/75);
+    height: calc(30rem/75);
+    line-height: calc(30rem/75);
+    text-align: center;
+    background-color: #fa6969;
+    font-size: calc(22rem/75);
+    color: #fff;
+    border-radius: 50%;
+}
+
+/* 主体 */
+main {
+    padding-top: calc(86rem/75);
+    background-color: #f4f4f4;
+}
+
+/* 搜索区域 */
+.search {
+    position: relative;
+    padding: calc(16rem/75) calc(20rem/75) 0;
+    background-color: #fff;
+}
+
+.search input {
+    padding-left: calc(24rem/75);
+    width: calc(710rem/75);
+    height: calc(60rem/75);
+    line-height: calc(60rem/75);
+    font-size: calc(30rem/75);
+    color: #878b99;
+    border: 1px solid #24c77e;
+    border-radius: calc(10rem/75);
+
+}
+
+/* .search input::after {
+    content: '搜索';
+    position: absolute;
+    top: calc(0rem/75);
+    left: calc(0rem/75);
+    width: calc(122rem/75);
+    height: calc(60rem/75);
+    line-height: calc(60rem/75);
+    text-align: center;
+    font-size: calc(30rem/75);
+    color: #f4fcf8;
+    background-color: #24c77e;
+    z-index: 999999;
+} */
+
+.search i {
+    position: absolute;
+    top: calc(18rem/75);
+    right: calc(22rem/75);
+    width: calc(122rem/75);
+    height: calc(56rem/75);
+    line-height: calc(56rem/75);
+    text-align: center;
+    font-size: calc(30rem/75);
+    color: #f4fcf8;
+    background-color: #24c77e;
+}
+
+/* 广告 */
+.advertising {
+    padding: calc(24rem/75) calc(20rem/75) calc(32rem/75);
+    width: 100%;
+    background-color: #fff;
+}
+
+.advertising img {
+    width: 100%;
+}
+
+/* 下拉区域 */
+.pull-down {
+    margin-top: calc(16rem/75);
+    padding-top: calc(33rem/75);
+    width: 100%;
+    background-color: #fff;
+}
+
+.pull-down ul {
+    display: flex;
+}
+
+.pull-down ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.pull-down ul li span {
+    font-size: calc(28rem/75);
+    color: #111111;
+}
+
+.pull-down ul li img {
+    margin-left: calc(10rem/75);
+    vertical-align: middle;
+    width: calc(24rem/75);
+    height: calc(24rem/75);
+}
+
+/* 选项区域 */
+.option {
+    padding: calc(32rem/75) calc(20rem/75) calc(15rem/75);
+    background-color: #fff;
+}
+
+.option ul {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.option ul::-webkit-scrollbar {
+    display: none;
+}
+
+.option ul li {
+    float: left;
+    margin-right: calc(24rem/75);
+    padding: calc(15rem/75) calc(32rem/75) calc(13rem/75);
+    background-color: #f5f7fa;
+    font-size: calc(26rem/75);
+    color: #1f212e;
+    border-radius: calc(15rem/75);
+}
+
+.option ul li img {
+    margin-right: calc(15rem/75);
+    vertical-align: middle;
+    width: calc(30rem/75);
+    height: calc(30rem/75);
+}
+
+/* 公司 */
+.company {
+    background-color: #fff;
+}
+
+.company ul li {
+    padding: 0 calc(20rem/75);
+    border-bottom: 1px solid #ebecf5;
+}
+
+.company ul li a {
+    display: block;
+    color: #111111;
+}
+
+.company-l {
+    float: left;
+}
+
+.company-l,
+.company-y {
+    margin: calc(32rem/75) 0;
+}
+
+.company-l>img {
+    width: calc(190rem/75);
+}
+
+.company-y {
+    width: calc(500rem/75);
+    float: right;
+}
+.company-y-one h3 {
+    float: left;
+    font-size: calc(32rem/75);
+}
+
+.company-y-one img:nth-child(2) {
+    margin: 0 calc(36rem/75) 0 calc(8rem/75);
+    float: left;
+    vertical-align: middle;
+    width: calc(34rem/75);
+    height: calc(32rem/75);
+}
+
+.company-y-one img:nth-child(3) {
+    float: right;
+    vertical-align: middle;
+    width: calc(60rem/75);
+    height: calc(32rem/75);
+}
+
+.company-y-two img:nth-child(1) {
+    float: left;
+    vertical-align: middle;
+    width: calc(140rem/75);
+    height: calc(22rem/75);
+}
+
+.company-y-two span:nth-child(2) {
+    margin: 0 calc(28rem/75) 0 calc(12rem/75);
+    float: left;
+    font-size: calc(26rem/75);
+}
+
+.company-y-two span:nth-child(3) {
+    float: left;
+    font-size: calc(26rem/75);
+    color: #ff784b;
+}
+
+.company-y-three span {
+    float: left;
+    margin-right: calc(16rem/75);
+    padding: calc(5rem/75) calc(8rem/75) calc(5rem/75);
+    border: 1px solid #c2c4cb;
+    border-radius: calc(10rem/75);
+    font-size: calc(24rem/75);
+    color: #717486;
+}
+.company-y-four span {
+    float: left;
+    padding: calc(8rem/75) calc(8rem/75) calc(4rem/75);
+    font-size: calc(24rem/75);
+    color: #ff5921;
+    background-color:#fff0ec;
+}
+.company-y-five img {
+    margin-right: calc(16rem/75);
+    float: left;
+    vertical-align: middle;
+    width: calc(58rem/75);
+    height: calc(30rem/75);
+}
+.company-y-five span {
+    float: left;
+    font-size: calc(24rem/75);
+    color: #717486;
+}
+.company-y-one,
+.company-y-two,
+.company-y-three,
+.company-y-four {
+    margin-bottom: calc(24rem/75);
+}
+/* 分页 */
+.page {
+    padding: calc(30rem/75) calc(41rem/75);
+    background-color: #fff;
+    font-size: calc(26rem/75);
+    color: #000;
+    text-align: center;
+}
+.page-l,.page-c,.page-y {
+    float: left;
+    height: calc(70rem/75);
+    line-height: calc(70rem/75);
+}
+.page-l,.page-y {
+    width: calc(234rem/75);
+}
+.page-l{
+    background-color:#eeeeee;
+    color: #666666;
+}
+.page-c{
+    width: calc(200rem/75);
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.page-y{
+    background-color:#6fd2a6;
+    color: #fff;
+}
+
+/* 底部 */
+footer {
+    height: calc(558rem/75);
+    background-color: #2e2e2e;
+    font-size: calc(24rem/75);
+    color: #606060;
+}
+
+.di-title {
+    margin: 0 auto;
+    padding: calc(64rem/75);
+}
+
+.di-title a {
+    padding: 0 calc(26rem/75);
+    float: left;
+    font-size: calc(30rem/75);
+    color: #606060;
+    border-right: 1px solid #444444;
+}
+
+.di-title a:first-child {
+    padding-left: 0;
+}
+
+.di-title a:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+.di-c {
+    margin-bottom: calc(92rem/75);
+    text-align: center;
+}
+
+.di-c button {
+    position: relative;
+    margin: 0 auto calc(25rem/75);
+    padding-left: calc(56rem/75);
+    display: block;
+    width: calc(386rem/75);
+    height: calc(72rem/75);
+    background-color: #24c77e;
+    border-radius: calc(30rem/75);
+    border: none;
+    font-size: calc(36rem/75);
+    color: #fff;
+}
+
+.di-c button::after {
+    content: '';
+    position: absolute;
+    top: calc(14rem/75);
+    left: calc(48rem/75);
+    width: calc(36rem/75);
+    height: calc(44rem/75);
+    background: url(../img/di.png) no-repeat;
+    background-size: 100%;
+}
+
+.di-btm {
+    text-align: center;
+}
+
+.di-btm p:nth-child(2) {
+    margin: calc(26rem/75) 0;
+}
+
+.di-btm a {
+    display: block;
+    color: #606060;
+}

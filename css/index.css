@@ -308,7 +308,6 @@ main {
 
 /* 本地装修 */
 .local {
-    /* overflow: hidden; */
     width: 100%;
     padding: calc(30rem/75) calc(30rem/75) calc(44rem/75);
     background-color: #fff;
@@ -320,7 +319,6 @@ main {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-
     background-color: #f8f8f8;
 }
 
