@@ -203,8 +203,261 @@ main {
     height: calc(38rem/75);
 }
 
+/* 特色服务 */
+.feature {
+    margin-bottom: calc(20rem/75);
+    padding: 0 calc(30rem/75);
+    width: 100%;
+    background-color: #f5f5f5;
+}
 
+.feature-title {
+    padding: calc(33rem/75) 0;
+    width: 100%;
+    height: calc(92rem/75);
+    font-size: calc(28rem/75);
+}
 
+.feature-title h3 {
+    margin-right: calc(20rem/75);
+    float: left;
+    color: #8e8e93;
+}
+
+.feature-title p {
+    float: left;
+    color: #444444;
+}
+
+.feature-title i {
+    float: right;
+}
+
+.feature-title i img {
+    width: calc(14rem/75);
+    height: calc(20rem/75);
+}
+
+.feature-btm {
+    padding-bottom: calc(30rem/75);
+    width: 100%;
+}
+
+.feature-btm li {
+    padding: calc(23rem/75) 0 calc(20rem/75);
+    float: left;
+    width: calc(219rem/75);
+    background-color: #fff;
+    margin-right: calc(16rem/75);
+}
+
+.feature-btm li:last-child {
+    margin-right: 0;
+}
+
+.feature-btm li a {
+    display: block;
+    text-align: center;
+    font-size: calc(26rem/75);
+    color: #666666;
+}
+
+.feature-btm li img {
+    width: calc(36rem/75);
+    height: calc(36rem/75);
+}
+
+.feature-btm li h4 {
+    margin-top: calc(14rem/75);
+    margin-bottom: calc(10rem/75);
+}
+
+.feature-btm li p {
+    margin: 0 auto;
+    width: calc(156rem/75);
+    height: calc(44rem/75);
+    line-height: calc(44rem/75);
+    text-align: center;
+    background-color: #ff8a00;
+    font-size: calc(20rem/75);
+    color: #fff;
+    border-radius: calc(15rem/75);
+}
+
+/* 通用标题 */
+.t-titlt {
+    margin-top: calc(20rem/75);
+    padding: calc(52rem/75) calc(30rem/75);
+    width: 100%;
+    height: calc(138rem/75);
+    background-color: #fff;
+    font-size: calc(28rem/75);
+    color: #8e8e93;
+}
+
+.t-titlt h3 {
+    float: left;
+    font-size: calc(36rem/75);
+    color: #444444;
+}
+
+.t-titlt span {
+    float: right;
+}
+
+.t-titlt span img {
+    margin-left: calc(12rem/75);
+    vertical-align: middle;
+    width: calc(14rem/75);
+    height: calc(20rem/75);
+}
+
+.discounts {
+    position: relative;
+    padding: 0 calc(30rem/75) calc(50rem/75);
+    width: 100%;
+    height: calc(222rem/75);
+    background-color: #fff;
+}
+
+.discounts>img:nth-child(1) {
+    position: absolute;
+    width: calc(686rem/75);
+    height: calc(174rem/75);
+}
+
+.discounts>img:nth-child(2) {
+    position: absolute;
+    top: calc(52rem/75);
+    left: calc(54rem/75);
+    width: calc(26rem/75);
+    height: calc(28rem/75);
+}
+
+.discounts>h3:nth-child(3) {
+    position: absolute;
+    top: calc(52rem/75);
+    left: calc(96rem/75);
+    font-size: calc(30rem/75);
+    color: #444444;
+}
+
+.discounts>h3:nth-child(3) span {
+    font-size: calc(24rem/75);
+    color: #666;
+}
+
+.discounts>p:nth-child(4) {
+    position: absolute;
+    top: calc(100rem/75);
+    left: calc(96rem/75);
+    font-size: calc(24rem/75);
+    color: #666666;
+}
+
+.discounts>p:nth-child(5) {
+    position: absolute;
+    top: calc(62rem/75);
+    right: calc(60rem/75);
+    width: calc(114rem/75);
+    height: calc(50rem/75);
+    line-height: calc(50rem/75);
+    text-align: center;
+    font-size: calc(26rem/75);
+    color: #ffffff;
+    background-color: #ff8a00;
+    border-radius: calc(25rem/75);
+}
+
+/* 装修案例 */
+.finish {
+    padding: 0 calc(30rem/75);
+    width: 100%;
+    background-color: #fff;
+}
+
+.t-hz {
+    width: 100%;
+}
+
+.t-hz li {
+    float: left;
+    margin: 0 calc(32rem/75) calc(60rem/75) 0;
+    width: calc(328rem/75);
+}
+
+.t-hz li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.t-hz li a {
+    width: 100%;
+    display: block;
+}
+
+.t-hz li a>img {
+    width: 100%;
+    height: calc(224rem/75);
+}
+
+.t-hz li a>h3 {
+    margin: calc(21rem/75) 0;
+    width: 100%;
+    font-size: calc(30rem/75);
+    color: #444444;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.t-hz li a>p {
+    width: 100%;
+    font-size: calc(24rem/75);
+    color: #929296;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 设计师 */
+.stylist {
+    padding: 0 calc(30rem/75);
+    width: 100%;
+    background-color: #fff;
+}
+
+.t-hz {
+    width: 100%;
+}
+
+.stylist .t-hz li {
+    float: left;
+    margin: 0 calc(50rem/75) calc(50rem/75) 0;
+    width: calc(132rem/75);
+    text-align: center;
+}
+
+.stylist .t-hz li:nth-child(4) {
+    margin-right: 0;
+}
+
+.t-hz li a {
+    width: 100%;
+    display: block;
+}
+
+.stylist .t-hz li a>img {
+    width: 100%;
+    height: calc(130rem/75);
+    border-radius: 50%;
+}
+
+.stylist .t-hz li a>h3 {
+    margin: calc(23rem/75) 0 calc(12rem/75);
+    width: 100%;
+    font-size: calc(26rem/75);
+    color: #444444;
+}
 
 
 
